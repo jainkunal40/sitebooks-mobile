@@ -184,7 +184,7 @@ npx eas-cli@latest submit --profile production  # upload to App Store / Play
 ```
 
 `eas.json` ships with development, preview and production profiles. Bundle identifiers are
-`com.exploreinteriors.sitebooks` for both platforms.
+`com.interios.sitebooks` for both platforms.
 
 For handing builds to real testers — costs, ad-hoc iOS vs TestFlight, Android APK, device
 registration and the two-phone test script — see **[docs/DISTRIBUTION.md](docs/DISTRIBUTION.md)**.

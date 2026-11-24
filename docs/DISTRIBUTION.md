@@ -64,7 +64,7 @@ Device limits reset only once per membership year, so test with a small group fi
 
 ### Option B — TestFlight (up to 10,000 testers)
 
-1. Create the app record in **App Store Connect** (bundle id `com.exploreinteriors.sitebooks`).
+1. Create the app record in **App Store Connect** (bundle id `com.interios.sitebooks`).
 2. Build and submit:
    ```bash
    npx eas-cli@latest build --profile production --platform ios
@@ -121,7 +121,7 @@ If a tester only has one phone, they can test one side at a time using
 
 - **Replace the app icon and splash.** `assets/icon.png` is still the Expo template logo.
 - Confirm the display name is `SiteBooks` (it is, in `app.json`).
-- Decide on the bundle identifier now: `com.exploreinteriors.sitebooks`. Changing it after release
+- Decide on the bundle identifier now: `com.interios.sitebooks`. Changing it after release
   creates a different app and loses TestFlight history.
 
 ## Updating testers later
