@@ -9,7 +9,12 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.exploreinteriors.sitebooks"
+      "bundleIdentifier": "com.exploreinteriors.sitebooks",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "UIFileSharingEnabled": true,
+        "LSSupportsOpeningDocumentsInPlace": true
+      }
     },
     "android": {
       "package": "com.exploreinteriors.sitebooks",
